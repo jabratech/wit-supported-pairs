@@ -1,0 +1,9 @@
+interface types {
+    use jabratech:common/types.{pair};
+
+    record supported-pair-response{
+        code: s16,
+        message: string,
+        data: list<pair>
+    }
+}

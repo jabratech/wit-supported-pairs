@@ -1,0 +1,5 @@
+package jabratech:supported-pair-common;
+
+world supported-pair {
+    export supported-pair-handler;
+}
