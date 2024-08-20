@@ -1,7 +1,7 @@
 interface supported-pair-handler {
-    use jabratech:common/types.{response-error};
+    use jabratech:common/types.{response};
     use types.{supported-pair-response};
 
-    get:  func(id: option<list<s32>>,ticker: option<list<string>>,name: option<list<string>>) -> result<supported-pair-response, response-error>;
+    get:  func(id: option<list<s32>>,ticker: option<list<string>>,name: option<list<string>>) -> result<supported-pair-response, response>;
     
   }
